@@ -1,0 +1,7 @@
+.Title{
+    font-family:'Megrim', cursive;
+    font-size: 4rem;
+    color: white;
+    transform: skewY(-8deg);
+    margin: 4rem auto 6rem;
+}

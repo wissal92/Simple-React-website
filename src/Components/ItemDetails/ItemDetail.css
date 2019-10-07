@@ -1,0 +1,61 @@
+.Card {
+    background-color: white;
+    width: 40%;
+    border: 1px solid green;
+    margin: 1rem auto;
+}
+
+.Detail-Title {
+    font-family: 'Megrim', cursive;
+    color: #00e3ae;
+}
+
+.Detail-Image {
+    width: 100%;
+    height: 40%;
+}
+
+.Seperator {
+    display: flex;
+    flex-direction: row;
+}
+
+.el {
+    width: 45%;
+}
+
+.Detail-From {
+    float: left;
+}
+
+.Detail-Nutrients {
+    float: right;
+}
+
+.Detail-Quantity {
+    float: left;
+}
+
+.Detail-Price {
+    float: right;
+}
+
+.Detail-Description {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.Back {
+    border: none;
+    padding: 1rem;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.group::after{
+    content:"";
+    display: table;
+    clear: both;
+}
